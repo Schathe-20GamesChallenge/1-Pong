@@ -53,7 +53,7 @@ SFML is automatically downloaded via CMake using `FetchContent`, so no manual in
 
 ## 📸 Preview
 
-*(Add one or two screenshots of the game in action here)*
+*TODO: (Add one or two screenshots of the game in action here)*
 
 ---
 
