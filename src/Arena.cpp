@@ -12,6 +12,7 @@ void Arena::init(sf::RenderWindow& window)
 
 void Arena::draw(sf::RenderWindow& window)
 {
+    ball.update();
     window.draw(ball.ballShape);
 }
 
