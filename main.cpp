@@ -6,6 +6,8 @@ int main()
     // Initialize program
     sf::RenderWindow window(sf::VideoMode({800, 600}), "ping...PONG", sf::Style::Titlebar | sf::Style::Close);
     window.setSize(sf::Vector2u(800, 600));
+    window.setVerticalSyncEnabled(true);
+    window.setFramerateLimit(120);
 
     // Create the arena
     Arena arena;
