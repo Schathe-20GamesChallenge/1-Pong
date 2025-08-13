@@ -4,8 +4,9 @@
 class Ball
 {
     private: 
+        // Would be use to speed up the ball on bounces
+        float velocity{1.f}; 
         // Speed of the ball in pixels per image
-        float velocity{1.f};
         float speed{4.f};
         std::array<int, 2> directions{1, 1};
 
