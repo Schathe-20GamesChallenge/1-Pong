@@ -6,8 +6,7 @@ This is the first game in the [20 Games Challenge](https://20_games_challenge.gi
 
 ## 📅 Progress
 
-🔄 **In Progress** — The core gameplay is functional, and stretch goals are being refined.
-
+🔄 **In Progress** — The core game is still in progress...
 ---
 
 ## 🎯 Game Objectives
