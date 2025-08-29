@@ -16,6 +16,6 @@ class Ball
 
         sf::CircleShape ballShape;
 
-        void update();
+        void update(int windowWidth, int windowHeight);
         void updateBounce();
 };

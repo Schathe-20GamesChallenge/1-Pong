@@ -15,7 +15,7 @@ void Arena::init(sf::RenderWindow& window)
 
 void Arena::draw(sf::RenderWindow& window)
 {
-    ball.update();
+    ball.update(width, height);
     window.draw(ball.ballShape);
     for (auto& bar : bars)
     {
