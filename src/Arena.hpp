@@ -25,5 +25,8 @@ class Arena
         void init(sf::RenderWindow& window);
         void draw(sf::RenderWindow& window);
 
+        void movePlayer(float y);
+        void moveOpponent(float y);
+
         bool isInbounds(int x, int y);
 };

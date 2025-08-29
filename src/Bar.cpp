@@ -10,15 +10,18 @@ Bar::~Bar() {}
 
 void Bar::update()
 {
-    // Update the bar's position
+    // Update the bar
 }
 
-void Bar::move()
+void Bar::move(float y, int windowHeight)
 {
-    // Move the bar
+    sf::Vector2f pos = barShape.getPosition();
+    if (y > 0 && pos.y + barShape.getSize().y < windowHeight || y < 0 && pos.y > 0)
+        barShape.move({0, y});
+    // if (pos.y < 0 || pos.y + barShape.getSize().y > windowHeight)
 }
 
 void Bar::checkCollision(const sf::CircleShape& ballShape)
 {
-    // Check collisino with the ball
+    // Check collision with the ball
 }

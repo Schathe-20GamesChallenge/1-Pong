@@ -20,7 +20,19 @@ int main()
             if (event->is<sf::Event::Closed>())
                 window.close();
         }
+
+        // Input handling
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
+            arena.movePlayer(-10);
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
+            arena.movePlayer(10);
         
+        // Temp input handling (for testing)
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up))
+            arena.moveOpponent(-10);
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down))
+            arena.moveOpponent(10);
+
         window.clear();
         
         // Draw elements

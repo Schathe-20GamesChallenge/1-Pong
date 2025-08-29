@@ -14,6 +14,6 @@ class Bar
         sf::RectangleShape barShape;
         
         void update();
-        void move();
+        void move(float y, int windowHeight);
         void checkCollision(const sf::CircleShape& ballShape);
 };
